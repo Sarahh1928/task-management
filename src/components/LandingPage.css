@@ -1,0 +1,21 @@
+
+.flex {
+    display: flex;
+  }
+  
+  .h-screen {
+    height: 100vh; 
+  }
+  
+  .flex-1 {
+    flex-grow: 1; 
+  }
+  
+  .p-8 {
+    padding: 2rem; 
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc; 
+  }
+  

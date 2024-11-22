@@ -1,0 +1,29 @@
+.left{
+    background-color: #131022;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: #B9B7C0;
+}
+.left img{
+    width: 55%;
+    margin: 0 auto;
+}
+.left .par{
+    width: 65%;
+    margin: 0 auto;
+}
+.left h2{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.left p{
+    font-size: 0.8em;
+}

@@ -1,0 +1,109 @@
+.main{
+    background-color: #F4F4F6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 70vh;
+    padding: 10vh 0;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0, 0.3);
+}
+.main .topPage
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.main .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main h2, label{
+    text-align: left;
+    color:#000;
+}
+.main h2{
+    font-size: 2em;
+    font-weight: 500;
+}
+.main form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    gap: 25px;
+}
+.main label{
+    font-weight: 500;
+}
+.main .lines{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.main .line{
+    margin-top: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: #E3E3E3;
+    border-radius: 5px;
+}
+.l1{
+    background-color: red !important;
+}
+.l2{
+    background-color:#FFB54A !important;
+}
+.l3{
+    background-color: #1D9CFD !important;
+}
+.l4{
+    background-color: #159F46 !important;
+}
+.main input{
+    background-color: #fff;
+    color: #000;
+    height: 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 0 0 0 10px;
+    border:none;
+}
+
+.passmsg{
+    color: #159F46;
+}
+.btn{
+    background-color: #003366;
+    border:none;
+    color: #fff;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: #000;
+}
+.checkBox{
+    align-items: center;
+    text-align: left;
+}
+.checkBox input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+p{
+    padding: 15px 0;
+}
+p .link{
+    text-decoration: none;
+    color: #1D9CFD;
+}
+p .link:hover{
+    color: #F5A623;
+}

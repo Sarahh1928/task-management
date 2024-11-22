@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@layer components {
+  .sidebar-icon {
+    @apply mr-2 text-gray-400 group-hover:text-white transition-colors duration-200;
+  }
+
+  .sidebar-link {
+    @apply flex items-center text-gray-300 hover:text-white py-2 px-4 rounded transition-colors duration-200;
+  }
+
+  .sidebar-button {
+    @apply w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded flex items-center justify-center transition-colors duration-200;
+  }
+
+  .main-content {
+    @apply bg-gray-100 p-6 overflow-y-auto;
+  }
+
+  .main-title {
+    @apply text-3xl font-semibold mb-4 text-gray-800;
+  }
+}
